@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <title>ChatRoom</title>
+  <script src="./socket.io/socket.io.js"></script>
+  <script src="./javascripts/chat.js"></script>
+  <link href="./stylesheets/chat.css" rel="stylesheet" />
+</head>
+<body>
+<div class="information">
+  <form id="form">
+    <fieldset>
+      <legend>Post</legend>
+      <textarea id="input"></textarea><br />
+    </fieldset>
+    <button>Send</button>
+  </form>
+  <fieldset>
+    <legend>OnlineInfo</legend>
+    <ul id="OnlineInfo">
+    </ul>
+  </fieldset>
+  <button id="leave">Leave</button>
+</div>
+
+<div id="chat">
+</div>
+</body>
+</html>
+

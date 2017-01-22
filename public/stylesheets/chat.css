@@ -1,0 +1,73 @@
+html, body{ height:100%;}
+body {
+  background-image: url(../images/58PIC0F58PICyub.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+
+div.information {
+  height: 100%;
+  width: 30%;
+  text-align: center;
+  position: fixed;
+}
+
+div#chat {
+  width: 70%;
+  position: relative;
+  left: 30%;
+}
+
+div.paragraph {
+  margin: 10px;
+  float: none;
+  border-bottom-style: solid;
+  color: #FFF;
+  font-family: "Microsoft YaHei UI";
+}
+
+fieldset {
+  border-radius: 10px;
+  text-align: left;
+  border-color: #FFF;
+  color: #FFF;
+  font-family: "Microsoft YaHei UI";
+  font-weight: bold;
+}
+h1 {
+  font-size: 12px;
+}
+
+p {
+  font-size: large;
+  font-style: italic;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0px;
+}
+
+button {
+  background-color: transparent;
+  width: 80%;
+  color: #FFF;
+  border-color: #FFF;
+  border-radius: 25px;
+  font-family: "Microsoft YaHei UI";
+  font-weight: bold;
+  margin-top: 10px;
+}
+textarea {
+  background-color: transparent;
+  width: 100%;
+  height: 200px;
+  border-style: none;
+  font-family: "Microsoft YaHei UI";
+  font-weight: bold;
+  color: #FFF;
+}
